@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050114;
+  --foreground: #ffffff;
+
+  --primary: #bb3eff;
+  --secondary: #fb9b00;
+
+  --accent: #dbb1ff;
+
+  --border: #997740;
+
+  --muted-foreground: #d2d2d2;
+
+  --card: #110c2a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+
+  --color-accent: var(--accent);
+
+  --color-border: var(--border);
+
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-card: var(--card);
+
+  --font-sans: var(--font-sans);
+  --font-instrument: var(--font-instrument-serif);
+  --font-geist-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: var(--font-geist-mono);
+  }
+}
+
+.btn-gradient {
+  background: linear-gradient(to top right, #5c14af, #fb9b00);
+}
+
+.gradient-wrapper {
+  display: inline-block;
+  background: linear-gradient(
+    135deg,
+    #747474 0%,
+    #17171700 5%,
+    #17171700 95%,
+    #747474 100%
+  );
+}
+
+.about-text-gradient {
+  background: linear-gradient(to right, #5c14af, #fb9b00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
