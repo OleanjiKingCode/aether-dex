@@ -4,11 +4,12 @@ import { Tokens } from "./tokens";
 
 export const Features = () => {
   return (
-    <div className="relative mx-auto flex w-full flex-col border-white/20 border-b md:flex-row">
+    <div className="relative flex w-full flex-col px-3 lg:flex-row lg:px-[80px]">
       <StarsThinIcon className="-translate-y-1/2 absolute top-0 right-1/2 translate-x-1/2" />
-      <StarsThinIcon className="absolute right-1/2 bottom-0 translate-x-1/2 translate-y-1/2" />
+      <StarsThinIcon className="absolute right-1/2 bottom-0 translate-x-1/2 translate-y-1/2 lg:hidden" />
+      <div className="absolute bottom-0 h-[1px] w-[calc(100%-24px)] border-white/20 border-b lg:w-[calc(100%-160px)]" />
 
-      <div className="flex w-full basis-1/2 flex-col gap-4 border-white/20 px-4 py-8 sm:py-12 md:border-r md:px-8">
+      <div className="flex w-full basis-1/2 flex-col gap-4 border-white/20 px-4 py-8 sm:py-12 lg:border-r lg:px-8">
         <div className="flex flex-col gap-4">
           <div className="font-semibold text-2xl">
             Built for AI and DePIN tokens
@@ -28,7 +29,7 @@ export const Features = () => {
           <div>Other emerging AI and DePIN tokens</div>
         </div>
       </div>
-      <div className="relative md:hidden">
+      <div className="relative lg:hidden">
         <StarsThinIcon className="-translate-y-1/2 absolute top-0 right-0 translate-x-1/2" />
         <StarsThinIcon className="-translate-y-1/2 -translate-x-1/2 absolute top-0 left-0" />
         <div className="w-full border-white/20 border-t" />

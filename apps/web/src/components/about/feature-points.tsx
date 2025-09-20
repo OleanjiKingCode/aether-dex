@@ -21,8 +21,8 @@ export const FeaturePoints = () => {
   };
   return (
     <div className="flex w-full basis-1/2 flex-col gap-4">
-      <div className="flex flex-col gap-4 p-4 sm:p-12">
-        <div className="py-4 font-geist-mono font-medium text-secondary text-xl sm:text-2xl">
+      <div className="flex flex-col gap-4 p-4 lg:p-12">
+        <div className="py-4 font-geist-mono font-medium text-[20px] text-secondary text-xl lg:text-2xl">
           Making Every Transaction...
         </div>
         <motion.div

@@ -11,7 +11,7 @@ export const AbsoluteImages = () => {
     <>
       <Image
         alt="Blur Primary"
-        className="absolute top-0 right-[5%] size-[48rem]"
+        className="absolute top-0 right-20 size-[48rem]"
         height={200}
         src={BlurPrimary}
         width={200}

@@ -16,8 +16,8 @@ export const AbsoluteImages = () => {
         width={200}
       />
 
-      <StarsThinIcon className="-translate-y-1/2 absolute top-[10dvh] right-20 translate-x-1/2" />
-      <StarsThinIcon className="-translate-y-1/2 -translate-x-1/2 absolute top-[10dvh] left-20" />
+      <StarsThinIcon className="-translate-y-1/2 absolute top-[10dvh] right-3 translate-x-1/2 lg:right-20" />
+      <StarsThinIcon className="-translate-y-1/2 -translate-x-1/2 absolute top-[10dvh] left-3 lg:left-20" />
       <Image
         alt="Stars"
         className="absolute top-0 right-1/2 translate-x-1/2"

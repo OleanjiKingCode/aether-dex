@@ -22,7 +22,7 @@ export const SubTitle = ({
       </div>
       <div className="flex flex-col justify-between">
         <div className={`text-${color}`}>{orderNumber}</div>
-        <div className="font-primary font-sans text-[24px] text-foreground">
+        <div className="font-primary font-sans text-[18px] text-foreground lg:text-[24px]">
           {title}
         </div>
       </div>

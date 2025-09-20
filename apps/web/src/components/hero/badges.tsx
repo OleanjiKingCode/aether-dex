@@ -28,17 +28,17 @@ export const Badges = () => {
   return (
     <motion.div
       animate="animate"
-      className="mx-auto flex flex-col gap-3 pb-[18dvh] text-base sm:pb-0 md:flex-row md:gap-8 md:text-lg"
+      className="mx-auto flex flex-col gap-3 pb-[18dvh] text-base sm:pb-0 lg:flex-row lg:gap-8 lg:text-lg"
       initial="initial"
       variants={containerVariants}
     >
       <motion.div
-        className="flex flex-row items-center gap-3 border border-secondary px-5 py-1 text-secondary md:py-2"
+        className="flex flex-row items-center gap-3 border border-secondary px-5 py-1 text-secondary lg:py-2"
         variants={itemVariants}
       >
         <Image
           alt="Logo"
-          className="size-4 md:size-6"
+          className="size-4 lg:size-6"
           height={24}
           src={PackageIcon}
           width={24}
@@ -46,14 +46,14 @@ export const Badges = () => {
         Zero-Knowledge Proofs
       </motion.div>
       <motion.div
-        className="flex flex-row items-center gap-3 border border-primary px-5 py-1 text-primary md:py-2"
+        className="flex flex-row items-center gap-3 border border-primary px-5 py-1 text-primary lg:py-2"
         variants={itemVariants}
       >
         <Image alt="Logo" height={24} src={BotIcon} width={24} />
         AI-Driven Routing
       </motion.div>
       <motion.div
-        className="flex flex-row items-center gap-3 border border-secondary px-5 py-1 text-secondary md:py-2"
+        className="flex flex-row items-center gap-3 border border-secondary px-5 py-1 text-secondary lg:py-2"
         variants={itemVariants}
       >
         <Image alt="Logo" height={24} src={ChainIcon} width={24} />

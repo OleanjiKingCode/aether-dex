@@ -40,7 +40,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
       lang="en"
     >
       <SmoothScroll>
-        <body className="relative">
+        <body className="relative overflow-hidden">
           <div
             className="pointer-events-none fixed inset-0 z-50 bg-repeat"
             style={{

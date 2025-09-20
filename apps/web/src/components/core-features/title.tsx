@@ -3,14 +3,14 @@ import { TextAnimate } from "../text-animate";
 
 export const Title = () => {
   return (
-    <div className="flex w-[896px] flex-col gap-[20px] p-8">
+    <div className="flex flex-col gap-[20px] p-8 lg:w-[896px]">
       <div className="flex w-fit flex-row items-center gap-2 border border-secondary px-4 py-1 sm:py-2">
         <div className="size-3 rounded-full bg-secondary" />
         <div className="font-geist-mono text-secondary text-sm sm:text-base">
           Core Features
         </div>
       </div>
-      <div className="flex flex-col font-sans font-semibold text-3xl sm:text-4xl md:text-7xl">
+      <div className="flex flex-col font-sans font-semibold text-3xl sm:text-4xl lg:text-7xl">
         <AnimatedQuote text="What You'll Get with" />
         <AnimatedQuote className="about-text-gradient" text="AetherDEX" />
       </div>

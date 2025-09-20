@@ -11,7 +11,7 @@ export const DividerGrid = ({ className, ...props }: IconProps) => {
   return (
     <Image
       alt="Divider Grid"
-      className={cn("h-20 w-screen object-cover md:h-full", className)}
+      className={cn("h-20 w-screen object-cover lg:h-full", className)}
       height={300}
       src={DividerGridImage}
       width={600}

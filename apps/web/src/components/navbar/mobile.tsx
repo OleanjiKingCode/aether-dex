@@ -18,7 +18,7 @@ export const MobileNavbar = () => {
 
   return (
     <>
-      <div className="absolute right-1/2 z-[100000] mx-auto flex h-[10dvh] w-[90%] translate-x-1/2 flex-row items-center justify-between gap-5 bg-transparent px-2 md:hidden">
+      <div className="absolute right-1/2 z-[100000] mx-auto flex h-[10dvh] w-[90%] translate-x-1/2 flex-row items-center justify-between gap-5 bg-transparent px-2 lg:hidden">
         <Image
           alt="Logo"
           className="w-[8rem]"

@@ -61,7 +61,7 @@ export const Navbar = ({ className }: { className?: string }) => {
   });
 
   return (
-    <div className="hidden md:block">
+    <div className="hidden lg:block">
       <AnimatePresence mode="wait">
         <motion.div
           animate={{
@@ -90,7 +90,7 @@ export const Navbar = ({ className }: { className?: string }) => {
               src={LogoText}
               width={100}
             />
-            <div className="hidden flex-row items-center justify-around gap-6 md:flex">
+            <div className="hidden flex-row items-center justify-around gap-6 lg:flex">
               {navLinks.map((link) => {
                 return (
                   <a
@@ -103,7 +103,7 @@ export const Navbar = ({ className }: { className?: string }) => {
                 );
               })}
             </div>
-            <div className="relative hidden md:block">
+            <div className="relative hidden lg:block">
               <button
                 className="btn-gradient h-12 w-[12rem] cursor-pointer border border-border font-geist-mono font-semibold"
                 type="button"

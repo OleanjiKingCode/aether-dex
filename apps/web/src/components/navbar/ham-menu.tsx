@@ -23,7 +23,7 @@ export const HamburgerMenuContent = ({ isOpen }: { isOpen: boolean }) => {
         <div className="absolute top-0 left-[5dvw] h-screen border border-white/20"></div>
         <div className="absolute top-0 right-[5dvw] h-screen border border-white/20"></div>
         <div className="absolute top-[10dvh] right-0 w-screen border border-white/20"></div>
-        <StarsThinIcon className="-translate-y-[calc(50%-1px)] absolute top-[10dvh] right-[5%] translate-x-[calc(50%-1px)]" />
+        <StarsThinIcon className="-translate-y-[calc(50%-1px)] absolute top-[10dvh] right-20 translate-x-[calc(50%-1px)]" />
         <StarsThinIcon className="-translate-y-[calc(50%-1px)] -translate-x-[calc(50%-1px)] absolute top-[10dvh] left-[5%]" />
 
         <div className="mx-auto flex max-w-[90%] translate-y-[10dvh] flex-col font-geist-mono font-medium text-muted-foreground text-xl">

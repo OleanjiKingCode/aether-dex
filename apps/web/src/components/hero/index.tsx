@@ -11,27 +11,27 @@ import { Lines } from "./lines";
 
 export const Hero = () => {
   return (
-    <div className="relative flex min-h-screen w-full flex-col justify-center gap-8 px-[80px] sm:overflow-hidden">
+    <div className="relative flex min-h-screen w-full flex-col justify-center gap-8 sm:overflow-hidden lg:px-[80px]">
       <Lines />
       <AbsoluteImages />
       <Flare />
-      <div className="mx-auto flex max-w-[90%] translate-y-[12dvh] flex-col items-center justify-center gap-8 sm:translate-y-0">
+      <div className="mx-auto flex w-[calc(100%-24px)] translate-y-[12dvh] flex-col items-center justify-center gap-8 sm:translate-y-0 lg:mt-30">
         <div className="z-[3] mx-auto flex flex-col items-center justify-center gap-4">
           <Image
             alt="Logo"
-            className="size-16 md:size-20"
+            className="size-16 lg:size-20"
             height={84}
             src={Logo}
             width={84}
           />
-          <div className="mx-2 flex w-fit flex-row items-center gap-2 border border-secondary px-2 py-2 md:px-8 md:py-3">
-            <div className="size-2 rounded-full bg-secondary md:size-3" />
-            <div className="font-geist-mono text-[13px] text-secondary md:text-base">
+          <div className="mx-2 flex w-fit flex-row items-center gap-2 border border-secondary px-2 py-2 lg:px-8 lg:py-3">
+            <div className="size-2 rounded-full bg-secondary lg:size-3" />
+            <div className="font-geist-mono text-[13px] text-secondary lg:text-base">
               PRIVACY-FIRST DECENTRALIZED EXCHANGE
             </div>
           </div>
         </div>
-        <div className="max-w-sm text-center font-medium text-4xl leading-[1] sm:max-w-4xl sm:text-[4rem] md:text-[5rem] md:tracking-tighter">
+        <div className="max-w-sm text-center font-medium text-3xl leading-[1] sm:max-w-4xl sm:text-[4rem] lg:text-4xl lg:text-[5rem] lg:tracking-tighter">
           <TextAnimate animation="slideUp" as="span" by="word">
             The Privacy-First Exchange for
           </TextAnimate>{" "}
@@ -59,7 +59,7 @@ export const Hero = () => {
           animation="fadeIn"
           as="p"
           by="word"
-          className="mx-auto max-w-3xl px-2 text-center font-geist-mono text-[#D2D2D2] text-sm md:text-lg"
+          className="mx-auto max-w-3xl px-2 text-center font-geist-mono text-[#D2D2D2] text-sm lg:text-lg"
           delay={0.35}
         >
           AetherDEX is building a decentralized exchange that lets you trade AI
