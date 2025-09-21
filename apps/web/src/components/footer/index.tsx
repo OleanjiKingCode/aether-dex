@@ -10,7 +10,7 @@ import { Lines } from "./lines";
 
 export const Footer = () => {
   return (
-    <div className="relative flex flex-col overflow-hidden bg-[url(public/assets/footer-layer-blur.png)] bg-center bg-cover bg-no-repeat pb-20 lg:bg-contain lg:px-[80px] lg:pt-5">
+    <div className="relative flex flex-col overflow-hidden bg-[url('/assets/footer-layer-blur.png')] bg-center bg-cover bg-no-repeat pb-20 lg:bg-contain lg:px-[80px] lg:pt-5">
       <AbsoluteImages />
       <Lines />
 
