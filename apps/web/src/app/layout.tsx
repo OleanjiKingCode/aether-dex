@@ -28,7 +28,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   description:
-    "AetherDEX is building a decentralized exchange that lets you trade AI and DePIN tokens across multiple blockchains with unmatched privacy and efficiency. Powered by zero-knowledge proofs and AI-driven routing, we're rethinking what secure, intelligent trading looks like.",
+    "AetherDEX is building a decentralized exchange that lets you trade AI and DePIN tokens across multiple blockchains with unmatched privacy and efficiency. Powered by Privacy-First proofs and AI-driven routing, we're rethinking what secure, intelligent trading looks like.",
   icons: [{ rel: "icon", url: "/assets/logo.png" }],
   title: "AetherDEX",
 };

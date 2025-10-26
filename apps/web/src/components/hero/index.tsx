@@ -64,7 +64,7 @@ export const Hero = () => {
         >
           AetherDEX is building a decentralized exchange that lets you trade AI
           and DePIN tokens across multiple blockchains with unmatched privacy
-          and efficiency. Powered by zero-knowledge proofs and AI-driven
+          and efficiency. Powered by Privacy-First proofs and AI-driven
           routing, we're rethinking what secure, intelligent trading looks like.
         </TextAnimate>
         <div className="mx-auto flex w-full max-w-xl flex-col items-center justify-between gap-6 px-4 sm:flex-row">
