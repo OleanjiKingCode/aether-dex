@@ -30,12 +30,19 @@ export const Footer = () => {
             tokens. Coming soon.
           </p>
           <div className="flex flex-row gap-[44px]">
-            <Image
-              alt="x logo"
-              height={32}
-              src={"/assets/twitter.svg"}
-              width={32}
-            />
+            <a
+              className="transition-opacity hover:opacity-70"
+              href="https://x.com/the_aether_dex?s=21"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Image
+                alt="x logo"
+                height={32}
+                src={"/assets/twitter.svg"}
+                width={32}
+              />
+            </a>
             <Image
               alt="reddit logo"
               height={32}
@@ -65,6 +72,22 @@ export const Footer = () => {
               <p>Features</p>
               <p>Demo</p>
               <p>FAQ</p>
+              <a
+                className="transition-opacity hover:underline hover:opacity-70"
+                href="https://aether-dex.gitbook.io/aether-dex-docs/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Whitepaper
+              </a>
+              <a
+                className="transition-opacity hover:underline hover:opacity-70"
+                href="https://www.aetherdex.app/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Website
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-6">

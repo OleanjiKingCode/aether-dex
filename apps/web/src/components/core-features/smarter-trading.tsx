@@ -1,12 +1,15 @@
 "use client";
 
 import Image from "next/image";
+
 import { useEffect, useState } from "react";
+
 import SmarterTradingFlow from "public/assets/core-features/flow/smarter-trading.svg";
 import SmarterTradingIcon from "public/assets/core-features/icon/smarter-trading-icon.svg";
+
+import { Progressbar } from "../base/progress-bar";
 import { StarsThinIcon } from "../icons";
 import { SubTitle } from "./sub-title";
-import { Progressbar } from "../base/progressBar";
 
 export const SmartTrading = () => {
   const [progress, setProgress] = useState(0);
