@@ -34,12 +34,14 @@ export const HamburgerMenuContent = ({ isOpen }: { isOpen: boolean }) => {
 
           <div className="p-4">
             <div className="group relative w-full">
-              <button
+              <a
                 className="btn-gradient flex h-16 w-full cursor-pointer flex-row items-center justify-center gap-4 border border-border px-4 font-geist-mono font-semibold"
-                type="button"
+                href="https://trade.aetherdex.app/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                Coming Soon
-              </button>
+                Launch Dapp
+              </a>
               <div className="absolute top-0 right-0 size-3 border-[#FB9B00] border-t border-r"></div>
               <div className="absolute right-0 bottom-0 size-3 border-[#FB9B00] border-r border-b"></div>
               <div className="absolute top-0 left-0 size-3 border-[#FB9B00] border-t border-l"></div>

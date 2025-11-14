@@ -27,7 +27,15 @@ export const Footer = () => {
           </div>
           <p>
             The privacy-first decentralized exchange for AI <br /> and DePIN
-            tokens. Coming soon.
+            tokens.{" "}
+            <a
+              className="text-primary hover:underline"
+              href="https://trade.aetherdex.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Launch Dapp
+            </a>
           </p>
           <div className="flex flex-row gap-[44px]">
             <a
@@ -101,7 +109,14 @@ export const Footer = () => {
               </div>
               <div className="flex flex-row items-center gap-2">
                 <div className="h-[10px] w-[10px] rounded-full bg-secondary"></div>
-                <p>MVP Coming Soon</p>
+                <a
+                  className="text-primary hover:underline"
+                  href="https://trade.aetherdex.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Launch Dapp
+                </a>
               </div>
             </div>
           </div>

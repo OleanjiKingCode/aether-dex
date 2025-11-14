@@ -104,12 +104,14 @@ export const Navbar = ({ className }: { className?: string }) => {
               })}
             </div>
             <div className="relative hidden lg:block">
-              <button
-                className="btn-gradient h-12 w-[12rem] cursor-pointer border border-border font-geist-mono font-semibold"
-                type="button"
+              <a
+                className="btn-gradient flex h-12 w-[12rem] cursor-pointer items-center justify-center border border-border font-geist-mono font-semibold"
+                href="https://trade.aetherdex.app/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                Coming Soon
-              </button>
+                Launch Dapp
+              </a>
               <div className="absolute top-0 right-0 size-3 border-[#FB9B00] border-t border-r"></div>
               <div className="absolute right-0 bottom-0 size-3 border-[#FB9B00] border-r border-b"></div>
               <div className="absolute top-0 left-0 size-3 border-[#FB9B00] border-t border-l"></div>
