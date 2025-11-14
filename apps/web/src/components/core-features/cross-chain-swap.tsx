@@ -21,8 +21,8 @@ export const CrossChainSwap = () => {
           title="Seamless Cross-Chain Swaps"
         />
         <div className="w-full text-justify font-geist-mono text-base text-muted-foreground sm:text-sm lg:max-w-[576px] lg:text-start">
-          Swap AI and DePIN tokens across Ethereum and Solana in less than 30
-          seconds. Liquidity aggregation ensures better pricing and lower
+          Swap AI and DePIN tokens across Solana and other chains in less than
+          30 seconds. Liquidity aggregation ensures better pricing and lower
           slippage without needing multiple platforms.
         </div>
         <div className="flex flex-col gap-[27px] lg:flex-row">
@@ -32,7 +32,7 @@ export const CrossChainSwap = () => {
         <div className="flex gap-[27px]">
           <BaseButton
             className="border-[#3F2A63] border-[1px] text-primary"
-            name="ETHEREUM"
+            name="SOLANA"
           />
           <BaseButton
             className="border-[#997740] border-[1px] text-secondary"

@@ -283,7 +283,7 @@ export const TradingInterface = () => {
                       <div className="flex flex-row items-center gap-3">
                         <div className="flex flex-row items-center gap-1">
                           <div className="h-[10px] w-[10px] rounded-full bg-secondary"></div>
-                          <p>Ethereum</p>
+                          <p>Solana</p>
                         </div>
                         <p className="text-[#D2D2D299]">Uniswap V3</p>
                       </div>

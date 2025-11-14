@@ -53,7 +53,7 @@ export const Service = () => {
         <div className="flex flex-col justify-between lg:flex-row">
           <Card
             cardClass="lg:!w-1/3 border-b-[1px] lg:border-b-0 lg:border-r-[1px] !border-dashed border-white/20"
-            content="Bridge tokens between Ethereum and Solana"
+            content="Bridge tokens between Solana and other chains"
             header="Private Swaps"
             iconUrl={CrossChainSpeedIcon}
             serviceClassName="text-secondary "

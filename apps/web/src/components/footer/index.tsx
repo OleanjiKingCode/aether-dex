@@ -27,7 +27,15 @@ export const Footer = () => {
           </div>
           <p>
             The privacy-first decentralized exchange for AI <br /> and DePIN
-            tokens. Coming soon.
+            tokens.{" "}
+            <a
+              className="text-primary hover:underline"
+              href="https://trade.aetherdex.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Launch Dapp
+            </a>
           </p>
           <div className="flex flex-row gap-[44px]">
             <a
@@ -68,10 +76,6 @@ export const Footer = () => {
               <p className="font-medium lg:text-[18px]">Product</p>
             </div>
             <div className="flex flex-col gap-[8px] text-[16px]">
-              <p>About</p>
-              <p>Features</p>
-              <p>Demo</p>
-              <p>FAQ</p>
               <a
                 className="transition-opacity hover:underline hover:opacity-70"
                 href="https://aether-dex.gitbook.io/aether-dex-docs/"
@@ -96,12 +100,15 @@ export const Footer = () => {
             </div>
             <div className="flex flex-col gap-[8px] text-[16px]">
               <div className="flex flex-row items-center gap-2">
-                <div className="h-[10px] w-[10px] rounded-full bg-primary"></div>
-                <p>In Development</p>
-              </div>
-              <div className="flex flex-row items-center gap-2">
                 <div className="h-[10px] w-[10px] rounded-full bg-secondary"></div>
-                <p>MVP Coming Soon</p>
+                <a
+                  className="text-primary hover:underline"
+                  href="https://trade.aetherdex.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Launch Dapp
+                </a>
               </div>
             </div>
           </div>
@@ -131,8 +138,6 @@ export const Footer = () => {
           <StarsThinIcon className="!size-[30px] absolute bottom-[-15px] left-[calc(50%-15px)]" />
           <StarsThinIcon className="!size-[30px] absolute bottom-[-15px] left-[-2px]" />
           <StarsThinIcon className="!size-[30px] absolute right-[-2px] bottom-[-15px]" />
-          <p>Privacy Policy</p>
-          <p>Terms of Service</p>
         </div>
         <div className="mx-auto flex flex w-full flex-col justify-between border-white/20 border-y-[1px] px-7 py-10 text-[14px] lg:flex-row">
           <p>Built with❤️for DeFi</p>
@@ -142,8 +147,7 @@ export const Footer = () => {
       <div className="hidden lg:block">
         <div className="relative mx-auto flex flex w-full justify-between border-white/20 border-b-[1px] px-7 py-10 text-[14px] lg:flex-row">
           <p>© 2025 AetherDEX. All rights reserved.</p>
-          <p>Privacy Policy</p>
-          <p>Terms of Service</p>
+
           <p>Built with❤️for DeFi</p>
         </div>
       </div>

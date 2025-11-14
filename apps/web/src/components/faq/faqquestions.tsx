@@ -38,7 +38,7 @@ export const AetherDEXFAQ = () => {
     },
     {
       answer:
-        "AetherDEX will support Ethereum, Solana, Polygon, and Injective Protocol at launch, with additional chains like BSC, Avalanche, and Cosmos planned based on community governance votes.",
+        "AetherDEX will support Solana, Polygon, and Injective Protocol at launch, with additional chains like BSC, Avalanche, and Cosmos planned based on community governance votes.",
       id: "faq-4",
       isOpen: false,
       question: "Which blockchains does AetherDEX support?",
