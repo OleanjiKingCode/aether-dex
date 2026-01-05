@@ -37,40 +37,43 @@ export const Footer = () => {
               Launch Dapp
             </a>
           </p>
-          <div className="flex flex-row gap-[44px]">
+          <div className="relative z-10 flex flex-row gap-[44px]">
             <a
-              className="transition-opacity hover:opacity-70"
+              className="cursor-pointer transition-opacity hover:opacity-70"
               href="https://x.com/the_aether_dex"
               rel="noopener noreferrer"
               target="_blank"
             >
               <Image
                 alt="x logo"
+                className="pointer-events-none"
                 height={32}
                 src={"/assets/twitter.svg"}
                 width={32}
               />
             </a>
             <a
-              className="transition-opacity hover:opacity-70"
+              className="cursor-pointer transition-opacity hover:opacity-70"
               href="https://github.com/AetherDex-Labs/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <Image
                 alt="reddit logo"
+                className="pointer-events-none"
                 height={32}
                 src={"/assets/reddit.svg"}
                 width={32}
               />
             </a>
             <a
-              className="transition-opacity hover:opacity-70"
+              className="cursor-pointer transition-opacity hover:opacity-70"
               href="mailto:leon.aetherdex@gmail.com"
               rel="noopener noreferrer"
             >
               <Image
                 alt="mail logo"
+                className="pointer-events-none"
                 height={32}
                 src={"/assets/mail.svg"}
                 width={32}
