@@ -40,7 +40,7 @@ export const Footer = () => {
           <div className="flex flex-row gap-[44px]">
             <a
               className="transition-opacity hover:opacity-70"
-              href="https://x.com/the_aether_dex?s=21"
+              href="https://x.com/the_aether_dex"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -51,18 +51,31 @@ export const Footer = () => {
                 width={32}
               />
             </a>
-            <Image
-              alt="reddit logo"
-              height={32}
-              src={"/assets/reddit.svg"}
-              width={32}
-            />
-            <Image
-              alt="mail logo"
-              height={32}
-              src={"/assets/mail.svg"}
-              width={32}
-            />
+            <a
+              className="transition-opacity hover:opacity-70"
+              href="https://github.com/AetherDex-Labs/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Image
+                alt="reddit logo"
+                height={32}
+                src={"/assets/reddit.svg"}
+                width={32}
+              />
+            </a>
+            <a
+              className="transition-opacity hover:opacity-70"
+              href="mailto:leon.aetherdex@gmail.com"
+              rel="noopener noreferrer"
+            >
+              <Image
+                alt="mail logo"
+                height={32}
+                src={"/assets/mail.svg"}
+                width={32}
+              />
+            </a>
           </div>
         </div>
         <div className="relative mt-10 flex w-full flex-2 justify-between border-white/20 border-t-[1px] px-7 py-10 lg:mt-0 lg:justify-around lg:border-0">
